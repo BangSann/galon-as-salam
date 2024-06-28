@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif; /* Updated font-family to Poppins */
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+
+  scroll-behavior: smooth;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  * {
+    font-family: "Poppins", sans-serif; /* Added font-family */
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Nunito";
+    src: url("path/to/Poppins-Regular.woff2") format("woff2"),
+      url("path/to/Poppins-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
+}
