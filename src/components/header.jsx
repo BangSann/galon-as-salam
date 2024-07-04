@@ -14,10 +14,10 @@ const Header = () => {
           </div>
           <div>Air RO</div>
           <div>
-            <a href="#layanan">Layanan</a>
+            <a href="#Layanan">Layanan</a>
           </div>
           <div>
-            <a href="#order">Pesan</a>
+            <a href="#Order">Pesan</a>
           </div>
         </div>
       </header>
