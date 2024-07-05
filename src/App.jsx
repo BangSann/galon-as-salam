@@ -9,7 +9,7 @@ import Services from "./pages/services";
 
 function App() {
   return (
-    <section className="flex flex-col justify-center items-center w-full relative bg-cover bg-no-repeat bg-[url('src/assets/background/bg1.jpg')]">
+    <section className="flex flex-col justify-center items-center w-full relative bg-cover bg-no-repeat bg-[url('./assets/background/bg1.jpg')]">
       <Header />
       <HomeBanner />
       <Profile />
