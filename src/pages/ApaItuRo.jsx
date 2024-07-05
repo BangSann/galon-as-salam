@@ -26,8 +26,8 @@ const AirRo = () => {
     },
   ];
   return (
-    <section className="container min-h-[100vh] w-full flex items-center flex-col mb-80">
-      <div className="text-center flex flex-col items-center space-y-5 py-[68px]">
+    <section className="container min-h-[100vh] w-full flex items-center flex-col mb-80" id="AirRO">
+      <div className="text-center flex flex-col items-center space-y-5 py-[90px]">
         <h1 className="text-[32px] text-white leading-8">Apa Itu Air Ro ?</h1>
         <div className="w-[200px] relative">
           <img src="src\assets\Line 1.svg" className="w-[200px]" />

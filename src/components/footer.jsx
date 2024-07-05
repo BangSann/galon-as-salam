@@ -37,7 +37,9 @@ const Footer = () => {
         <div>
           <h1 className="text-2xl text-[#22B6FD]">Lokasi</h1>
           <div className="my-3">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40424.48817301387!2d112.01093550774881!3d-7.839518392280631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78570592c4195d%3A0xdd821c40f619fb24!2sAlun-Alun%20Kota%20Kediri!5e0!3m2!1sid!2sid!4v1720068019105!5m2!1sid!2sid" width="320" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://goo.gl/maps/XKiy7RQGQtHVkCgK8" target={"_blank"}>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3951.4220225269573!2d112.02803007500661!3d-7.955264992069251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNTcnMTkuMCJTIDExMsKwMDEnNTAuMiJF!5e0!3m2!1sid!2sid!4v1720164640990!5m2!1sid!2sid" width="320" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </a>
           </div>
         </div>
       </div>

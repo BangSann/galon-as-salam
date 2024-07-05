@@ -13,7 +13,7 @@ const Order = () => {
     setJumlahPesanan("")
     setAlamatPelanggan("")
 
-    var phoneNumber = '+6285707530620'; 
+    var phoneNumber = '+6281358390505'; 
     const message = `Nama : ${namaPelanggan} \nAlamat : ${alamatPelanggan} \nPesanan : ${jumlahPesanan} galon.`;
     var url = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
     window.open(url, '_blank');
