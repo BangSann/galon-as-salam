@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import orderImg from "../assets/halo 1.png"
+
 const Order = () => {
   const [namaPelanggan, setNamaPelanggan] = useState("");
   const [alamatPelanggan, setAlamatPelanggan] = useState("");
@@ -20,12 +22,12 @@ const Order = () => {
   }
   return (
     <section
-      className="w-full h-[100vh] flex justify-center bg-[url('src/assets/background/bg4.jpg')] pt-[68px]"
+      className="w-full h-[100vh] flex justify-center bg-[url('./assets/background/bg4.jpg')] pt-[68px]"
       id="Order"
     >
       <div className="container grid grid-cols-2 justify-center items-center">
         <div>
-          <img src="src/assets/halo 1.png" alt="" />
+          <img src={orderImg} />
         </div>
         <div className="flex justify-end items-center ms-[120px]">
           <div className="rounded-2xl bg-white p-11 w-full">

@@ -11,7 +11,7 @@ const HomeBanner = () => {
             <p className="text-[27px]">
               Pilihan terbaik Air Minum Sehat Keluarga anda
             </p>
-            <a href="#order">
+            <a href="#Order">
               <button className="bg-[#002780] text-white py-3 px-6 rounded-lg mt-10">
                 Pesan Sekarang
               </button>

@@ -1,3 +1,8 @@
+import line1 from "../assets/Line 1.svg"
+import line2 from "../assets/Line 2.svg"
+import drop from "../assets/utils/drop.png"
+import image1 from "../assets/utils/1.png"
+
 const AirRo = () => {
   const description = [
     {
@@ -30,9 +35,9 @@ const AirRo = () => {
       <div className="text-center flex flex-col items-center space-y-5 py-[90px]">
         <h1 className="text-[32px] text-white leading-8">Apa Itu Air Ro ?</h1>
         <div className="w-[200px] relative">
-          <img src="src\assets\Line 1.svg" className="w-[200px]" />
+          <img src={line1} className="w-[200px]" />
           <img
-            src="src\assets\Line 2.svg"
+            src={line2}
             className="w-[200px] absolute top-0"
           />
         </div>
@@ -51,16 +56,16 @@ const AirRo = () => {
         <div className="text-center flex flex-col items-center space-y-5 absolute top-2">
           <h1 className="text-[32px] text-white leading-8">Manfaat Air RO</h1>
           <div className="w-[200px] relative">
-            <img src="src\assets\Line 1.svg" className="w-[200px]" />
+            <img src={line1} className="w-[200px]" />
             <img
-              src="src\assets\Line 2.svg"
+              src={line2}
               className="w-[200px] absolute top-0"
             />
           </div>
         </div>
         <div className="w-full realtive flex justify-center">
-          <img src="src/assets/utils/1.png" className="w-full" />
-          <img src="src/assets/utils/drop.png" className="absolute -bottom-60 z-10" />
+          <img src={image1} className="w-full" />
+          <img src={drop} className="absolute -bottom-60 z-10" />
         </div>
         <div className="absolute -top-5 grid grid-cols-2 w-full gap-y-[130px] py-3">
           {description.map((items, index) => {
